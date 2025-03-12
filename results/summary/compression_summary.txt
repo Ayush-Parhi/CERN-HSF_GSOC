@@ -1,0 +1,174 @@
+LOSSY FLOATING-POINT COMPRESSION ANALYSIS
+==================================================
+
+SUMMARY OF RESULTS:
+------------------------------
+
+UNIFORM DISTRIBUTION:
+  Original file size: 8000000 bytes
+
+  Compression results:
+    8 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 4.41366114e-11
+
+    9 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.76825877e-10
+
+    10 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 7.08755000e-10
+
+    11 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.83810367e-09
+
+    12 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.13683976e-08
+
+    13 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 4.54516865e-08
+
+    14 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.81756426e-07
+
+    15 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 7.27787672e-07
+
+    16 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.90962071e-06
+
+GAUSSIAN DISTRIBUTION:
+  Original file size: 8000000 bytes
+
+  Compression results:
+    8 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.67853954e-10
+
+    9 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 6.72350284e-10
+
+    10 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.69611890e-09
+
+    11 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.07895278e-08
+
+    12 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 4.32222803e-08
+
+    13 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.72476147e-07
+
+    14 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 6.89809854e-07
+
+    15 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.75788991e-06
+
+    16 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.10321034e-05
+
+EXPONENTIAL DISTRIBUTION:
+  Original file size: 8000000 bytes
+
+  Compression results:
+    8 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 3.33419184e-10
+
+    9 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.33767498e-09
+
+    10 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 5.35538730e-09
+
+    11 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.14689604e-08
+
+    12 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 8.58681058e-08
+
+    13 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 3.43006972e-07
+
+    14 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 1.37105013e-06
+
+    15 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 5.49519654e-06
+
+    16 bits zeroed:
+      File size: 8000000 bytes
+      Compression ratio: 1.00x
+      MSE: 2.19660962e-05
+
+
+CONCLUSIONS:
+------------------------------
+
+Optimal compression levels:
+  Uniform distribution:
+    Best compression: 8 bits zeroed
+    Lowest error: 8 bits zeroed
+
+  Gaussian distribution:
+    Best compression: 8 bits zeroed
+    Lowest error: 8 bits zeroed
+
+  Exponential distribution:
+    Best compression: 8 bits zeroed
+    Lowest error: 8 bits zeroed
+
+USE CASE RECOMMENDATIONS:
+  High-precision computing: 8 bits zeroed (minimal precision loss)
+  Balanced approach: 12 bits zeroed (good compression with moderate precision loss)
+  Limited storage resources: 16 bits zeroed (maximum compression with significant precision loss)
